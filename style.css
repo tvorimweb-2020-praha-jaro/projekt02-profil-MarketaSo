@@ -16,4 +16,78 @@ html { box-sizing: border-box; }
 
 body {
     background-color: #bdc3c7;
+    width: 250px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 20px;
+    box-shadow: 2px 6px 10px #31363b;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul {
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+p {
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+}
+
+.foto {
+    width: 250px;
+}
+
+.odkazy li {
+    display: inline-block;
+}
+
+.portfolio a:hover {
+    background-color: #e74c3c;
+}
+
+.facebook a:hover {
+    background-color: #3b5998;
+}
+
+.twitter a:hover {
+    background-color: #1da1f2;
+}
+
+.odkazy {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #31363b;
+}
+
+.odkazy a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+div {
+    background-color: #31363b;
+}
+
+.obsah {
+    padding: 20px;
+}
+
+.logo {
+    background-color: #b92e81;
+    border-radius: 50%;
+}
+
+li {
+    border-top: 3px solid #3f464d;
 }
