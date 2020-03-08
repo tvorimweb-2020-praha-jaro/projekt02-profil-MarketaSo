@@ -67,7 +67,7 @@ p {
 }
 
 .odkazy a {
-    display: inline-block;
+    display: block;
     color: white;
     text-decoration: none;
     padding: 20px 20px;
@@ -75,7 +75,16 @@ p {
     margin: 0;
 }
 
-div {
+.portfolio {
+    width: 100%;
+}
+
+.facebook,
+.twitter {
+    width: 50%;
+}
+
+.profil {
     background-color: #31363b;
 }
 
@@ -90,4 +99,14 @@ div {
 
 li {
     border-top: 3px solid #3f464d;
+}
+
+.logo {
+    position: absolute;
+    right: 22px;
+    bottom: -20px;
+}
+
+.hlavicka {
+    position: relative;
 }
